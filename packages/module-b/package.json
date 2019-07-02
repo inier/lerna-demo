@@ -2,5 +2,8 @@
   "name": "@yourrepo/module-b",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@yourrepo/module-a": "^1.0.0"
+  }
 }
