@@ -13,6 +13,11 @@
     "stylelint-config-primer": "^7.0.1",
     "stylelint-config-standard": "^18.3.0"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write packages/**/*.{js,jsx,ts,tsx,css,sass,scss,less,json,md,mdx}",
+    "publish-l": "lerna publish --conventional-commits --independent"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "echo 'Pre-commit checks......' && lint-staged",
